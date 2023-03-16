@@ -1,0 +1,52 @@
+#Folder ignore
+.idea/
+#Too large Dataset
+data/
+# Compiled source #
+###################
+*.com
+*.pyc
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.out
+*.html
+$*.doc
+$*.docx
+~*.docx
+~*.doc
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+# html #
+*.html
+*.pyc
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+ppt_resources/
