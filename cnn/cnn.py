@@ -2,7 +2,6 @@ import json
 import numpy as np
 from sklearn.model_selection import train_test_split
 import tensorflow.keras as keras
-import matplotlib.pyplot as plt
 from keras.callbacks import CSVLogger
 
 
