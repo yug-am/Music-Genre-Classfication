@@ -29,4 +29,11 @@ G. Tzanetakis and P. Cook, "Musical genre classification of audio signals," in I
 Latest numpy, numpy v1.24.0 has issues with librosa library
 Degrade to version <=1.20.0
 
+## Results
+### Basic neural network
+
+![Basic_nn_accuarcy](./Readme_images/basic_nn_accuracy_plot.png)
+
+![Basic_nn_accuarcy](./Readme_images/basic_nn_error_plot.png)
+
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yug-am/)
