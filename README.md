@@ -36,10 +36,17 @@ Degrade to version <=1.20.0
 
 ![Basic_nn_accuarcy](./Readme_images/basic_nn_error_plot.png)
 
-### Generalized neural network
+### Generalized neural network(Overfittting fixed)
 
 ![generalized_nn_accuarcy](./Readme_images/generalized_nn_accuracy_plot.png)
 
 ![generalized_nn_accuarcy](./Readme_images/generalized_nn_error_plot.png)
+
+### Convolutional neural network 
+
+![cnn_accuarcy](./Readme_images/cnn_accuracy_plot.png)
+
+![cnn_accuarcy](./Readme_images/cnn_error_plot.png)
+
 
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yug-am/)
