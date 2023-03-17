@@ -2,8 +2,11 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
+import json
+import  numpy as np
 from audioprocessor.processor import mfcc_process
+from basicnn.basicneuralnetwork import basic_neural_network
+
 def genre_classifier():
     # Use a breakpoint in the code line below to debug your script.
     dataset_output_path = "data/raw_data"
@@ -16,6 +19,7 @@ def genre_classifier():
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print("Main function call")
-    #   genre_classifier()
+    data_path = "data/json_data/data.json"
+    basic_neural_network(data_path)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

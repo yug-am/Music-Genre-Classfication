@@ -6,7 +6,7 @@ import librosa
 
 
 def mfcc_process(dataset_output_path, json_output_path, sampling_per_track, sampling_rate, duration, num_mfcc=13, n_fft=2048, hop_length=512, num_segments=5):
-   
+
     data_set = {
         "genre_dir": [],
         "label": [],
