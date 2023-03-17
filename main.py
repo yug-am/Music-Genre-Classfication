@@ -7,6 +7,7 @@ import  numpy as np
 from audioprocessor.processor import mfcc_process
 from plotter.plot_stats import plot_stats
 from basicnn.basicneuralnetwork import basic_neural_network
+from finetunednn.generalizednn import generalized_nn
 
 def genre_classifier():
     # Use a breakpoint in the code line below to debug your script.
@@ -21,8 +22,8 @@ def genre_classifier():
 if __name__ == '__main__':
     print("Main function call")
     data_path = "data/json_data/data.json"
-    log_path = "logs/basicnn_log.csv"
-    #plot_stats(log_path, "basic neural network")
-    #basic_neural_network(data_path)
+    log_path = "logs/generalized_nn_log.csv"
+    plot_stats(log_path, "generalized neural network")
+    #generalized_nn(data_path)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
